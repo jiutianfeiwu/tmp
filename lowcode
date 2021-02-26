@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-02-26T06:40:17.768Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36 Edg/88.0.705.74" etag="w9Wl3fMpNXehYp0HHQUc" version="14.4.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-02-26T06:43:18.409Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36 Edg/88.0.705.74" etag="1QT_iU7eWYP1h1YiJelf" version="14.4.3" type="github">
   <diagram id="rNrJM9PpP1pfSFMaF9xi" name="第 1 页">
     <mxGraphModel dx="1038" dy="580" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -66,6 +66,9 @@
         </mxCell>
         <mxCell id="Wo4kEXvFp50BjfQpxPT2-29" value="数据分析工具&lt;br&gt;&lt;a href=&quot;https://hipacloud.com/&quot;&gt;黑帕云&lt;/a&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="10" y="150" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Wo4kEXvFp50BjfQpxPT2-31" value="流程自动化&lt;br&gt;&lt;a href=&quot;https://cn.aliyun.com/product/codestore&quot;&gt;阿里云-RPA&lt;/a&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry y="270" width="120" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
