@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-02-26T03:03:48.115Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36 Edg/88.0.705.74" etag="rqe_p2hQivr3l-oS7B4e" version="14.4.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-02-26T06:40:17.768Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36 Edg/88.0.705.74" etag="w9Wl3fMpNXehYp0HHQUc" version="14.4.3" type="github">
   <diagram id="rNrJM9PpP1pfSFMaF9xi" name="第 1 页">
     <mxGraphModel dx="1038" dy="580" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -11,6 +11,16 @@
         </mxCell>
         <mxCell id="Wo4kEXvFp50BjfQpxPT2-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Wo4kEXvFp50BjfQpxPT2-1" target="Wo4kEXvFp50BjfQpxPT2-19">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Wo4kEXvFp50BjfQpxPT2-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Wo4kEXvFp50BjfQpxPT2-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="520" y="365" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Wo4kEXvFp50BjfQpxPT2-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Wo4kEXvFp50BjfQpxPT2-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="230" y="365" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="Wo4kEXvFp50BjfQpxPT2-1" value="lowecode" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.cloud_rect" vertex="1" parent="1">
           <mxGeometry x="340" y="330" width="120" height="70" as="geometry" />
@@ -32,6 +42,30 @@
         </mxCell>
         <mxCell id="Wo4kEXvFp50BjfQpxPT2-19" value="功能" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="360" y="450" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Wo4kEXvFp50BjfQpxPT2-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Wo4kEXvFp50BjfQpxPT2-22" target="Wo4kEXvFp50BjfQpxPT2-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Wo4kEXvFp50BjfQpxPT2-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Wo4kEXvFp50BjfQpxPT2-22" target="Wo4kEXvFp50BjfQpxPT2-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Wo4kEXvFp50BjfQpxPT2-22" value="基于对象" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="520" y="325" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Wo4kEXvFp50BjfQpxPT2-23" value="数据" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="660" y="180" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Wo4kEXvFp50BjfQpxPT2-25" value="工作流" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="660" y="460" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Wo4kEXvFp50BjfQpxPT2-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Wo4kEXvFp50BjfQpxPT2-28" target="Wo4kEXvFp50BjfQpxPT2-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Wo4kEXvFp50BjfQpxPT2-28" value="使用方向" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="180" y="325" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Wo4kEXvFp50BjfQpxPT2-29" value="数据分析工具&lt;br&gt;&lt;a href=&quot;https://hipacloud.com/&quot;&gt;黑帕云&lt;/a&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="150" width="120" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
