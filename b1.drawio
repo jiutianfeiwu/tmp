@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2022-05-23T08:57:53.510Z" agent="5.0 (Windows)" etag="uRcbOHPjjvQSidxHv7or" version="18.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-23T08:59:24.783Z" agent="5.0 (Windows)" etag="zoDrc9A1bbnmQtjFYeJC" version="18.1.1" type="github">
   <diagram name="Page-1" id="8ce9d11a-91a2-4d17-14d8-a56ed91bf033">
     <mxGraphModel dx="1221" dy="644" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="FQi87nIB8K2R2gKA_s0_-4" value="入库" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="120" y="210" width="640" height="260" as="geometry" />
+          <mxGeometry x="120" y="210" width="480" height="240" as="geometry" />
         </mxCell>
         <mxCell id="FQi87nIB8K2R2gKA_s0_-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="FQi87nIB8K2R2gKA_s0_-6" target="FQi87nIB8K2R2gKA_s0_-13">
           <mxGeometry relative="1" as="geometry" />
@@ -37,6 +37,9 @@
             <mxPoint x="480" y="360" as="targetPoint" />
             <Array as="points" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="FQi87nIB8K2R2gKA_s0_-25" value="入库检查" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="330" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
