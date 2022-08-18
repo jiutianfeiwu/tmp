@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-18T02:21:24.825Z" agent="5.0 (Windows)" etag="ueeHzXQ5yQ1PioNdSAGy" version="18.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-18T02:28:58.750Z" agent="5.0 (Windows)" etag="EjptG-2IyveP7oNdTG1w" version="18.1.1" type="github">
   <diagram id="Ka_yhlfQBt1nnNOFSuwi" name="Page-1">
     <mxGraphModel dx="1038" dy="547" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -29,9 +29,6 @@
         <mxCell id="fz9vf7qBXlm0riUWRxJQ-3" value="裸金属" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.server;" vertex="1" parent="1">
           <mxGeometry x="90" y="410" width="50" height="15" as="geometry" />
         </mxCell>
-        <mxCell id="fz9vf7qBXlm0riUWRxJQ-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fz9vf7qBXlm0riUWRxJQ-5" target="fz9vf7qBXlm0riUWRxJQ-2">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="fz9vf7qBXlm0riUWRxJQ-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="fz9vf7qBXlm0riUWRxJQ-5" target="fz9vf7qBXlm0riUWRxJQ-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -40,17 +37,73 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="fz9vf7qBXlm0riUWRxJQ-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fz9vf7qBXlm0riUWRxJQ-5" target="fz9vf7qBXlm0riUWRxJQ-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fz9vf7qBXlm0riUWRxJQ-24" value="MQTT" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="fz9vf7qBXlm0riUWRxJQ-23">
+          <mxGeometry x="-0.1621" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="fz9vf7qBXlm0riUWRxJQ-5" value="telegraf-proxy" style="verticalLabelPosition=bottom;sketch=0;html=1;fillColor=#A153A0;strokeColor=#ffffff;verticalAlign=top;align=center;points=[[0,0.5,0],[0.125,0.25,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[0.875,0.25,0],[1,0.5,0],[0.875,0.75,0],[0.75,1,0],[0.5,1,0],[0.125,0.75,0]];pointerEvents=1;shape=mxgraph.cisco_safe.compositeIcon;bgIcon=mxgraph.cisco_safe.design.blank_device;resIcon=mxgraph.cisco_safe.design.flow_collector_2;" vertex="1" parent="1">
-          <mxGeometry x="130" y="270" width="50" height="45" as="geometry" />
+          <mxGeometry x="90" y="280" width="50" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="fz9vf7qBXlm0riUWRxJQ-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fz9vf7qBXlm0riUWRxJQ-10" target="fz9vf7qBXlm0riUWRxJQ-26">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="465" y="330" />
+              <mxPoint x="400" y="330" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fz9vf7qBXlm0riUWRxJQ-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fz9vf7qBXlm0riUWRxJQ-10" target="fz9vf7qBXlm0riUWRxJQ-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fz9vf7qBXlm0riUWRxJQ-31" value="MQTT" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="fz9vf7qBXlm0riUWRxJQ-30">
+          <mxGeometry x="0.1252" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fz9vf7qBXlm0riUWRxJQ-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fz9vf7qBXlm0riUWRxJQ-10" target="fz9vf7qBXlm0riUWRxJQ-29">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="465" y="330" />
+              <mxPoint x="545" y="330" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fz9vf7qBXlm0riUWRxJQ-33" value="SNMP" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="fz9vf7qBXlm0riUWRxJQ-32">
+          <mxGeometry x="-0.1219" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="fz9vf7qBXlm0riUWRxJQ-10" value="CNI" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#4D27AA;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.cloud_wan_segment_network;" vertex="1" parent="1">
-          <mxGeometry x="379" y="310" width="30" height="30" as="geometry" />
+          <mxGeometry x="450" y="238" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fz9vf7qBXlm0riUWRxJQ-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fz9vf7qBXlm0riUWRxJQ-13" target="fz9vf7qBXlm0riUWRxJQ-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="269" y="335" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fz9vf7qBXlm0riUWRxJQ-25" value="Tlegraf agent MQTT" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="fz9vf7qBXlm0riUWRxJQ-22">
+          <mxGeometry x="-0.2078" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="fz9vf7qBXlm0riUWRxJQ-13" value="服务器" style="image;html=1;image=img/lib/clip_art/computers/Server_Rack_Empty_128x128.png" vertex="1" parent="1">
-          <mxGeometry x="249" y="400" width="40" height="50" as="geometry" />
+          <mxGeometry x="249" y="392.5" width="40" height="50" as="geometry" />
         </mxCell>
         <mxCell id="fz9vf7qBXlm0riUWRxJQ-14" value="动环" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/competitive-strategy-and-corporate-training/512/168_agriculture_urban_ecology_environment_farming_network_cloud_smart_computing-128.png" vertex="1" parent="1">
-          <mxGeometry x="540" y="400" width="59" height="59" as="geometry" />
+          <mxGeometry x="600" y="388" width="59" height="59" as="geometry" />
+        </mxCell>
+        <mxCell id="fz9vf7qBXlm0riUWRxJQ-26" value="交换机" style="image;html=1;image=img/lib/clip_art/networking/Switch_128x128.png" vertex="1" parent="1">
+          <mxGeometry x="370" y="392.5" width="70" height="62" as="geometry" />
+        </mxCell>
+        <mxCell id="fz9vf7qBXlm0riUWRxJQ-28" value="SNMP" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="395" y="320" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="fz9vf7qBXlm0riUWRxJQ-29" value="防火墙" style="image;html=1;image=img/lib/clip_art/networking/Firewall_02_128x128.png" vertex="1" parent="1">
+          <mxGeometry x="510" y="392.5" width="70" height="55" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
