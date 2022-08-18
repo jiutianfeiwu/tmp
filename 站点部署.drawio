@@ -1,19 +1,27 @@
-<mxfile host="app.diagrams.net" modified="2022-08-18T02:20:37.276Z" agent="5.0 (Windows)" etag="DOKEjzocGaoU5lonouLd" version="18.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-18T02:21:24.825Z" agent="5.0 (Windows)" etag="ueeHzXQ5yQ1PioNdSAGy" version="18.1.1" type="github">
   <diagram id="Ka_yhlfQBt1nnNOFSuwi" name="Page-1">
     <mxGraphModel dx="1038" dy="547" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="fz9vf7qBXlm0riUWRxJQ-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fz9vf7qBXlm0riUWRxJQ-1" target="fz9vf7qBXlm0riUWRxJQ-14">
+        <mxCell id="fz9vf7qBXlm0riUWRxJQ-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fz9vf7qBXlm0riUWRxJQ-1" target="fz9vf7qBXlm0riUWRxJQ-14">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="fz9vf7qBXlm0riUWRxJQ-16" value="MODBUS" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="fz9vf7qBXlm0riUWRxJQ-15">
-          <mxGeometry x="0.1325" y="-3" relative="1" as="geometry">
+        <mxCell id="fz9vf7qBXlm0riUWRxJQ-20" value="MODBUS" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="fz9vf7qBXlm0riUWRxJQ-17">
+          <mxGeometry x="0.0492" y="4" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fz9vf7qBXlm0riUWRxJQ-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fz9vf7qBXlm0riUWRxJQ-1" target="fz9vf7qBXlm0riUWRxJQ-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fz9vf7qBXlm0riUWRxJQ-19" value="MQTT" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="fz9vf7qBXlm0riUWRxJQ-18">
+          <mxGeometry x="-0.332" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="fz9vf7qBXlm0riUWRxJQ-1" value="边缘网关" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/storage/Azure_Stack_Edge.svg;" vertex="1" parent="1">
-          <mxGeometry x="360" y="70" width="68" height="48" as="geometry" />
+          <mxGeometry x="360" y="40" width="68" height="48" as="geometry" />
         </mxCell>
         <mxCell id="fz9vf7qBXlm0riUWRxJQ-2" value="emqx" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#B0084D;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.mq_broker;" vertex="1" parent="1">
           <mxGeometry x="230" y="160" width="78" height="78" as="geometry" />
@@ -35,12 +43,6 @@
         <mxCell id="fz9vf7qBXlm0riUWRxJQ-5" value="telegraf-proxy" style="verticalLabelPosition=bottom;sketch=0;html=1;fillColor=#A153A0;strokeColor=#ffffff;verticalAlign=top;align=center;points=[[0,0.5,0],[0.125,0.25,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[0.875,0.25,0],[1,0.5,0],[0.875,0.75,0],[0.75,1,0],[0.5,1,0],[0.125,0.75,0]];pointerEvents=1;shape=mxgraph.cisco_safe.compositeIcon;bgIcon=mxgraph.cisco_safe.design.blank_device;resIcon=mxgraph.cisco_safe.design.flow_collector_2;" vertex="1" parent="1">
           <mxGeometry x="130" y="270" width="50" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="fz9vf7qBXlm0riUWRxJQ-6" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="fz9vf7qBXlm0riUWRxJQ-1" target="fz9vf7qBXlm0riUWRxJQ-2">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="280" y="120" as="sourcePoint" />
-            <mxPoint x="330" y="70" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="fz9vf7qBXlm0riUWRxJQ-10" value="CNI" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#4D27AA;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.cloud_wan_segment_network;" vertex="1" parent="1">
           <mxGeometry x="379" y="310" width="30" height="30" as="geometry" />
         </mxCell>
@@ -48,7 +50,7 @@
           <mxGeometry x="249" y="400" width="40" height="50" as="geometry" />
         </mxCell>
         <mxCell id="fz9vf7qBXlm0riUWRxJQ-14" value="动环" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/competitive-strategy-and-corporate-training/512/168_agriculture_urban_ecology_environment_farming_network_cloud_smart_computing-128.png" vertex="1" parent="1">
-          <mxGeometry x="550" y="395.5" width="59" height="59" as="geometry" />
+          <mxGeometry x="540" y="400" width="59" height="59" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
