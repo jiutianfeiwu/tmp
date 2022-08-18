@@ -1,11 +1,16 @@
-<mxfile host="app.diagrams.net" modified="2022-08-18T02:28:58.750Z" agent="5.0 (Windows)" etag="EjptG-2IyveP7oNdTG1w" version="18.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-18T02:30:04.341Z" agent="5.0 (Windows)" etag="A37lb2gf0IBMnb9Ik3nn" version="18.1.1" type="github">
   <diagram id="Ka_yhlfQBt1nnNOFSuwi" name="Page-1">
     <mxGraphModel dx="1038" dy="547" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="fz9vf7qBXlm0riUWRxJQ-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fz9vf7qBXlm0riUWRxJQ-1" target="fz9vf7qBXlm0riUWRxJQ-14">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="394" y="120" />
+              <mxPoint x="630" y="120" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="fz9vf7qBXlm0riUWRxJQ-20" value="MODBUS" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="fz9vf7qBXlm0riUWRxJQ-17">
           <mxGeometry x="0.0492" y="4" relative="1" as="geometry">
@@ -13,7 +18,12 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="fz9vf7qBXlm0riUWRxJQ-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fz9vf7qBXlm0riUWRxJQ-1" target="fz9vf7qBXlm0riUWRxJQ-2">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="394" y="120" />
+              <mxPoint x="269" y="120" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="fz9vf7qBXlm0riUWRxJQ-19" value="MQTT" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="fz9vf7qBXlm0riUWRxJQ-18">
           <mxGeometry x="-0.332" y="-1" relative="1" as="geometry">
@@ -38,7 +48,12 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="fz9vf7qBXlm0riUWRxJQ-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fz9vf7qBXlm0riUWRxJQ-5" target="fz9vf7qBXlm0riUWRxJQ-2">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="200" y="303" />
+              <mxPoint x="200" y="199" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="fz9vf7qBXlm0riUWRxJQ-24" value="MQTT" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="fz9vf7qBXlm0riUWRxJQ-23">
           <mxGeometry x="-0.1621" relative="1" as="geometry">
@@ -57,7 +72,12 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="fz9vf7qBXlm0riUWRxJQ-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fz9vf7qBXlm0riUWRxJQ-10" target="fz9vf7qBXlm0riUWRxJQ-2">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="360" y="253" />
+              <mxPoint x="360" y="199" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="fz9vf7qBXlm0riUWRxJQ-31" value="MQTT" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="fz9vf7qBXlm0riUWRxJQ-30">
           <mxGeometry x="0.1252" y="1" relative="1" as="geometry">
