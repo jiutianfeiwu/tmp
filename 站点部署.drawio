@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-18T02:31:01.674Z" agent="5.0 (Windows)" etag="9CX2VIOzBtGQkLg5t2A_" version="18.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-18T02:33:13.165Z" agent="5.0 (Windows)" etag="xgcjPrsrY7Y-reNYkXRu" version="18.1.1" type="github">
   <diagram id="Ka_yhlfQBt1nnNOFSuwi" name="Page-1">
     <mxGraphModel dx="1038" dy="547" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -50,7 +50,7 @@
         <mxCell id="fz9vf7qBXlm0riUWRxJQ-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fz9vf7qBXlm0riUWRxJQ-5" target="fz9vf7qBXlm0riUWRxJQ-2">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="200" y="303" />
+              <mxPoint x="200" y="280" />
               <mxPoint x="200" y="199" />
             </Array>
           </mxGeometry>
@@ -61,7 +61,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="fz9vf7qBXlm0riUWRxJQ-5" value="telegraf-proxy" style="verticalLabelPosition=bottom;sketch=0;html=1;fillColor=#A153A0;strokeColor=#ffffff;verticalAlign=top;align=center;points=[[0,0.5,0],[0.125,0.25,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[0.875,0.25,0],[1,0.5,0],[0.875,0.75,0],[0.75,1,0],[0.5,1,0],[0.125,0.75,0]];pointerEvents=1;shape=mxgraph.cisco_safe.compositeIcon;bgIcon=mxgraph.cisco_safe.design.blank_device;resIcon=mxgraph.cisco_safe.design.flow_collector_2;" vertex="1" parent="1">
-          <mxGeometry x="90" y="280" width="50" height="45" as="geometry" />
+          <mxGeometry x="90" y="260" width="50" height="45" as="geometry" />
         </mxCell>
         <mxCell id="fz9vf7qBXlm0riUWRxJQ-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fz9vf7qBXlm0riUWRxJQ-10" target="fz9vf7qBXlm0riUWRxJQ-26">
           <mxGeometry relative="1" as="geometry">
